@@ -6,7 +6,6 @@ indent: 4
 
 writing/narrative.md:
     ConfirmFileExists
-    mdl
     proselint
     CountFileParagraphs --count 4
     CountMarkdownTags --tag "heading" --count 4
