@@ -6,7 +6,8 @@ indent: 4
 
 writing/narrative.md:
     ConfirmFileExists
+    mdl
+    proselint
     CountFileParagraphs --count 4
-    CountParagraphWords --count 75
     CountMarkdownTags --tag "heading" --count 4
     MatchFileFragment --fragment "TODO" --count 0 --exact
